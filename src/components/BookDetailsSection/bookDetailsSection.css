@@ -1,0 +1,120 @@
+
+.detail-section-container{
+    padding: 8rem 0;
+   
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-img-container, .book-detail-container{
+    width: 50%;
+}
+
+.book-img-container img{
+    height: 250px;
+    border: 1px solid #ddd;
+}
+
+.book-img-container{
+    text-align: center;
+}
+
+.book-detail-container h2{
+    font-size: 2rem;
+}
+
+.book-detail-container p{
+    padding: 1rem 0;
+}
+
+.book-description{
+    line-height: 1.7rem;
+}
+
+.book-detail-container h3{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: var(--primary-color-bright);
+}
+
+.cart-button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color-bright);
+    color: #fff;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px #ddd;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+
+}
+
+.cart-button:hover{
+    background-color: #333;
+}
+
+@media screen and (max-width:400px){
+    .detail-section-container{
+        padding: 4rem 0;
+       
+    }
+    
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .book-img-container, .book-detail-container{
+        width: 50%;
+    }
+    
+    .book-img-container img{
+        height: 150px;
+        border: 1px solid #ddd;
+    }
+    
+    .book-img-container{
+        text-align: center;
+    }
+    
+    .book-detail-container h2{
+        font-size: 1rem;
+    }
+    
+    .book-detail-container p{
+        padding: 0.5rem 0;
+    }
+    
+    .book-description{
+        line-height: 1.4rem;
+    }
+    
+    .book-detail-container h3{
+        padding-top: 0.5rem;
+        font-size: 0.7rem;
+        font-weight: 900;
+        color: var(--primary-color-bright);
+    }
+    
+    .cart-button{
+        display: inline-block;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        background-color: var(--primary-color-bright);
+        color: #fff;
+        margin-top: 1rem;
+        box-shadow: 2px 2px 5px #ddd;
+        transition: 0.2s ease-in;
+        cursor: pointer;
+    
+    }
+    
+    .cart-button:hover{
+        background-color: #333;
+    }
+}
