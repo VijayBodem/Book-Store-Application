@@ -61,7 +61,7 @@
     transition: 0.3s ease-in;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:412px){
     .form-group{
         padding: 0.8rem 0;
     }

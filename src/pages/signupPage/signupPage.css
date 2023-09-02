@@ -27,7 +27,7 @@
     padding-bottom: 1rem;
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:412px){
     .form-group{
         padding: 0.6rem 0;
     }

@@ -40,7 +40,7 @@
 
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:412px){
     .cart-item{
     display: flex;
     padding: 1rem;
